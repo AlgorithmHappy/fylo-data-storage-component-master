@@ -5,23 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1440px)">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0px;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <section id="sec-iconosYlogo"> <!--Cuadro chico de la izquierda-->
+    <div> <!--Logo Fylo-->
+      <img src="images/logo.svg" alt="">
+    </div>
+    
+    <div> <!--Iconos-->
+      <img src="images/icon-document.svg" alt="">
+      <img src="images/icon-folder.svg" alt="">
+      <img src="images/icon-upload.svg" alt="">
+    </div>
+  </section>
 
-  You’ve used 815 GB of your storage
+  <section id="sec-textoYbarra"> <!--Cuadro de la derecha-->
+    <div> <!--Texto grande-->
+      <p>You’ve used <b>815 GB</b> of your storage</p>
+    </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
+    <div> <!--Barra-->
+
+    </div>
+
+    <div> <!--1000 GB-->
+      <p>
+        0 GB
+      </p>
+      
+      <p>
+        1000 GB
+      </p>
+    </div>
+  </section>
+
+  <section> <!--Globo de texto blanco-->
+    <p>
+      <span>185</span> GB Left
+    </p>
+  </section>
+
+  <img id="background" src="images/bg-desktop.png" alt="">
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
