@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1440px)">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
@@ -16,38 +17,41 @@
   </style>
 </head>
 <body>
-  <section id="sec-iconosYlogo"> <!--Cuadro chico de la izquierda-->
-    <div> <!--Logo Fylo-->
-      <img src="images/logo.svg" alt="">
-    </div>
-    
-    <div> <!--Iconos-->
-      <img src="images/icon-document.svg" alt="">
-      <img src="images/icon-folder.svg" alt="">
-      <img src="images/icon-upload.svg" alt="">
-    </div>
-  </section>
-
-  <section id="sec-textoYbarra"> <!--Cuadro de la derecha-->
-    <div> <!--Texto grande-->
-      <p>You’ve used <b>815 GB</b> of your storage</p>
-    </div>
-
-    <div> <!--Barra-->
-
-    </div>
-
-    <div> <!--1000 GB-->
-      <p>
-        0 GB
-      </p>
+  <main>
+    <section id="sec-iconosYlogo"> <!--Cuadro chico de la izquierda-->
+      <div> <!--Logo Fylo-->
+        <img src="images/logo.svg" alt="">
+      </div>
       
-      <p>
-        1000 GB
-      </p>
-    </div>
-  </section>
+      <div id="div-iconos"> <!--Iconos-->
+        <img src="images/icon-document.svg" alt="" style="width: 50px; height: 45px;">
+        <img src="images/icon-folder.svg" alt="" style="width: 50px; height: 45px;">
+        <img src="images/icon-upload.svg" alt="" style="width: 50px; height: 45px;">
+      </div>
+    </section>
 
+    <section id="sec-textoYbarra"> <!--Cuadro de la derecha-->
+      <div> <!--Texto grande-->
+        <p>You’ve used <b>815 GB</b> of your storage</p>
+      </div>
+
+      <div id="barra"> <!--Barra-->
+        <div>
+
+        </div>
+      </div>
+
+      <div id="gb"> <!--1000 GB-->
+        <p>
+          0 GB
+        </p>
+        
+        <p>
+          1000 GB
+        </p>
+      </div>
+    </section>
+  </main>
   <section> <!--Globo de texto blanco-->
     <p>
       <span>185</span> GB Left
