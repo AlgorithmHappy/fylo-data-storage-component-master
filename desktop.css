@@ -102,6 +102,33 @@ main{
     width: 49%;
 }
 
+#globo{
+    display: block;
+    position: absolute;
+    background-color: hsl(243, 100%, 93%);
+    width: 150px;
+    height: 70px;
+    border-radius: 15px 15px 0px 15px;
+    color: hsl(229, 7%, 55%);
+    font-size: small;
+    font-weight: bolder;
+    padding: 17px 29px 20px 29px;
+}
+
+#globo::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background-color: black;
+    
+}
+
+#globo span{
+    font-size: x-large;
+    color: black;
+}
+
 #background{
     position: absolute;
     top: 420px;
