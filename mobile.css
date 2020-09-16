@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    background-color: hsl(229, 57%, 11%);
+}
+
+body{
+    width: 375px;
+    height: 667px;
+}
+
+main{
+    width: 90%;
+    height: 65%;
+}
+
+#sec-iconosYlogo{
+    display: block;
+    position: relative;
+    background-color: hsl(228, 56%, 26%);
+    padding: 55px;
+    height: 50%;
+    border-radius: 10px 100px 10px 10px;
+    margin: auto;
+    margin-bottom: 25px;
+    top: 100px;
+    left: 18px;
+}
+
+#sec-iconosYlogo div{
+    display: block;
+    height: 50%;
+}
+
+#div-iconos img{
+    margin-top: 25px;
+    margin-right: 10px;
+    background-color: hsl(229, 57%, 11%);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#sec-textoYbarra{
+    clear: both;
+    display: block;
+    height: 40%;
+    margin: auto;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 10px 10px 10px;
+    padding: 30px;
+    color: hsl(243, 100%, 93%);
+    margin-top: 25px;
+    position: relative;
+    top: 120px;
+    left: 18px;
+}
+
+#barra{
+    width: 100%;
+    height: 20px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 15px;
+    padding: 3px;
+    margin-top: 12px;
+}
+
+#barra div{
+    width: 82%;
+    height: 100%;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 15px;
+    position: relative;
+}
+
+#barra div::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: hsl(243, 100%, 93%);
+    left: 208px;
+    top: 1px;
+}
+
+#gb{
+    margin-top: 12px;
+}
+
+#gb p:first-child{
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+}
+
+#gb p:last-child{
+    display: inline-block;
+    text-align: right;
+    width: 49%;
+}
+
+#globo{
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 95px;
+    background-color: hsl(243, 100%, 93%);
+    width: 150px;
+    height: 70px;
+    border-radius: 15px 15px 15px 15px;
+    color: hsl(229, 7%, 55%);
+    font-size: small;
+    font-weight: bolder;
+    padding: 17px 29px 20px 29px;
+}
+
+#globo span{
+    font-size: x-large;
+    color: black;
+}
+
+#background{
+    content: url("images/bg-mobile.png");
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+}
